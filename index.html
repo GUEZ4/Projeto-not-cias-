@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nação Informa - Notícias Moçambique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>Nação<span>Informa</span></h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar notícias...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- Slide Menu -->
+        <nav class="slide-menu" id="slideMenu">
+            <div class="menu-header">
+                <h3>Menu</h3>
+                <button class="close-menu" id="closeMenu"><i class="fas fa-times"></i></button>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-laptop-code"></i> Tecnologia</a></li>
+                <li><a href="#"><i class="fas fa-utensils"></i> Gastronomia</a></li>
+                <li><a href="#"><i class="fas fa-globe-americas"></i> Mundo</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Economia</a></li>
+                <li><a href="#"><i class="fas fa-heartbeat"></i> Saúde</a></li>
+                <li><a href="#"><i class="fas fa-futbol"></i> Esportes</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Destaque Principal -->
+            <section class="featured-news">
+                <div class="featured-item">
+                    <img src="https://i.postimg.cc/nc5kgng2/images.jpg" alt="Notícia destaque">
+                    <div class="featured-overlay">
+                        <span class="category technology">Falecimento do Papa: Um Momento de Luto e Reflexão para os Fiéis</span>
+                        <h2>Segundo comunicado oficial do Vaticano, o Papa morreu no Palácio Apostólico na data de 21/abril/2025</h2>
+                        <p>Com a morte do Papa, inicia-se o período de "Sede Vacante" (trono vazio). Os cardeais se reunirão em Conclave para eleger um novo pontífice, um processo que pode durar semanas e será acompanhado por milhões de católicos...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Categorias -->
+            <section class="categories">
+                <h2 class="section-title">Categorias</h2>
+                <div class="category-buttons">
+                    <button class="active">Todas</button>
+                    <button>Tecnologia</button>
+                    <button>Gastronomia</button>
+                    <button>Outras</button>
+                </div>
+            </section>
+
+            <!-- Notícias em Destaque -->
+            <section class="highlight-news">
+                <h2 class="section-title">Notícias em Destaque</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img src="https://i.postimg.cc/L6MsXqKK/transferir.jpg" alt="Notícia 1">
+                        <div class="news-content">
+                            <span class="category food">Gastronomia</span>
+                            <h3>39 anos depois, este herói interpretado por Schwarzenegger ainda tem um dos nomes mais estilosos do cinema de ação!</h3>
+                            <p>Lançado em 1985, este filme não faz parte dos filmes de ação mais conhecidos com Arnold Schwarzenegger, mas não deixa de ser icônico....</p>
+                            <div class="news-footer">
+                                <span class="date"><i class="far fa-clock"></i> 2 horas atrás</span>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="https://i.postimg.cc/25xyRrXR/696958.jpg" alt="Notícia 2">
+                        <div class="news-content">
+                            <span class="category technology">Tecnologia</span>
+                            <h3>HyperOS 2.2: Xiaomi revela oficialmente novos recursos de foto, vídeo e IA do sistema</h3>
+                            <p>Dispositivo com câmera revolucionária e bateria de longa duração conquista consumidores...</p>
+                            <div class="news-footer">
+                                <span class="date"><i class="far fa-clock"></i> 5 horas atrás</span>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <img src="https://i.postimg.cc/9z3CwnNY/Vulcan-Mozambique1-jpg-750x558.webp" alt="Notícia 3">
+                        <div class="news-content">
+                            <span class="category world">Mundo</span>
+                            <h3>Vulcan Moçambique anuncia rescisão colectiva de contratos com trabalhadores e com <strong>indemnizações precárias</strong></h3>
+                            <p>INTEGRITY-MOÇAMBIQUE, 15 de Abril de 2025-Foi por meio de uma circular informativa com o número de referência 01/MS/CS/2025 datada de 14 de Abril de 2025 pelo Comité Sindical da Vulcan Moçambique...</p>
+                            <div class="news-footer">
+                                <span class="date"><i class="far fa-clock"></i> 1 dia atrás</span>
+                                <a href="#" class="read-more">Ler mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter">
+                <h2>Assine nossa Newsletter</h2>
+                <p>Receba as principais notícias diretamente no seu e-mail</p>
+                <form>
+                    <input type="email" placeholder="Seu melhor e-mail">
+                    <button type="submit">Assinar</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Sobre o Nação Informa</h3>
+                    <p>O Nação Informa traz as notícias mais relevantes e atualizadas em diversas áreas, com um design moderno e experiência de leitura agradável.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tecnologia</a></li>
+                        <li><a href="#">Gastronomia</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nação Informa. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
